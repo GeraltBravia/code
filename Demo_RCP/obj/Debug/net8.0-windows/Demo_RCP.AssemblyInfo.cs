@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Demo_RCP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91a06988e95adf46b9accfc58ab2500c176b467d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Demo_RCP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Demo_RCP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
