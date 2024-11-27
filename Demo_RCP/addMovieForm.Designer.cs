@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btn_back = new Button();
             dataGridView1 = new DataGridView();
             label1 = new Label();
             panel2 = new Panel();
@@ -48,7 +49,6 @@
             addmovie_name = new TextBox();
             label2 = new Label();
             addmovie_id = new TextBox();
-            btn_back = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel2.SuspendLayout();
@@ -67,6 +67,21 @@
             panel1.Size = new Size(757, 178);
             panel1.TabIndex = 4;
             // 
+            // btn_back
+            // 
+            btn_back.BackColor = Color.FromArgb(133, 19, 33);
+            btn_back.FlatAppearance.BorderSize = 0;
+            btn_back.FlatStyle = FlatStyle.Flat;
+            btn_back.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_back.ForeColor = Color.White;
+            btn_back.Location = new Point(668, 3);
+            btn_back.Name = "btn_back";
+            btn_back.Size = new Size(77, 27);
+            btn_back.TabIndex = 42;
+            btn_back.Text = "<--";
+            btn_back.UseVisualStyleBackColor = false;
+            btn_back.Click += btn_back_Click;
+            // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToAddRows = false;
@@ -79,6 +94,7 @@
             dataGridView1.Size = new Size(751, 143);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label1
             // 
@@ -301,21 +317,6 @@
             addmovie_id.Size = new Size(117, 20);
             addmovie_id.TabIndex = 31;
             addmovie_id.Tag = "";
-            // 
-            // btn_back
-            // 
-            btn_back.BackColor = Color.FromArgb(133, 19, 33);
-            btn_back.FlatAppearance.BorderSize = 0;
-            btn_back.FlatStyle = FlatStyle.Flat;
-            btn_back.Font = new Font("Arial Rounded MT Bold", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btn_back.ForeColor = Color.White;
-            btn_back.Location = new Point(668, 3);
-            btn_back.Name = "btn_back";
-            btn_back.Size = new Size(77, 27);
-            btn_back.TabIndex = 42;
-            btn_back.Text = "<--";
-            btn_back.UseVisualStyleBackColor = false;
-            btn_back.Click += btn_back_Click;
             // 
             // addMovieForm
             // 

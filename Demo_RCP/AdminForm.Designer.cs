@@ -42,7 +42,7 @@
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
-            addMovieForm11 = new addMovieForm1();
+            dashbroadForm11 = new dashbroadForm1();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -162,6 +162,7 @@
             btn_dashbroad.Text = "Bang Dieu Khien";
             btn_dashbroad.TextAlign = ContentAlignment.MiddleRight;
             btn_dashbroad.UseVisualStyleBackColor = true;
+            btn_dashbroad.Click += btn_dashbroad_Click;
             // 
             // pictureBox1
             // 
@@ -210,19 +211,19 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(addMovieForm11);
+            panel3.Controls.Add(dashbroadForm11);
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(195, 34);
             panel3.Name = "panel3";
             panel3.Size = new Size(805, 416);
             panel3.TabIndex = 33;
             // 
-            // addMovieForm11
+            // dashbroadForm11
             // 
-            addMovieForm11.Location = new Point(-3, 0);
-            addMovieForm11.Name = "addMovieForm11";
-            addMovieForm11.Size = new Size(808, 416);
-            addMovieForm11.TabIndex = 0;
+            dashbroadForm11.Location = new Point(0, 0);
+            dashbroadForm11.Name = "dashbroadForm11";
+            dashbroadForm11.Size = new Size(789, 450);
+            dashbroadForm11.TabIndex = 0;
             // 
             // AdminForm
             // 
@@ -266,5 +267,6 @@
         private Panel panel3;
         private addMovieForm1 addMovieForm1;
         private addMovieForm1 addMovieForm11;
+        private dashbroadForm1 dashbroadForm11;
     }
 }

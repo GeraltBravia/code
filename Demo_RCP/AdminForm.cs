@@ -38,7 +38,23 @@ namespace Demo_RCP
 
         private void btn_addmovie_Click(object sender, EventArgs e)
         {
+            addMovieForm admform = new addMovieForm();
+            admform.Show();
+            this.Hide();
             
+        }
+
+        private void addMovieForm13_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_dashbroad_Click(object sender, EventArgs e)
+        {
+            addMovieForm1 admform = new addMovieForm1();
+            admform.Visible = false;
+            dashbroadForm1 dbform = new dashbroadForm1();
+            dbform.Visible = true;
         }
     }
 }

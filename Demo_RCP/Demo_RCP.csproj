@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="movie_list\" />
+    <Folder Include="ds_movie\" />
   </ItemGroup>
 
 </Project>

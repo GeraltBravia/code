@@ -19,7 +19,7 @@ namespace Demo_RCP
         public addMovieForm1()
         {
             InitializeComponent();
-            displayData();
+            
         }
 
         private void btn_import_Click(object sender, EventArgs e)
@@ -223,6 +223,11 @@ namespace Demo_RCP
             movieData mData = new movieData();
             List<movieData> listData = mData.movieListData();
             dataGridView1.DataSource = listData;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 
