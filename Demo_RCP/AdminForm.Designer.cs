@@ -28,160 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel1 = new Panel();
-            pictureBox5 = new PictureBox();
             btn_logout = new Button();
-            pictureBox4 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            btn_addmovie = new Button();
-            btn_addstaff = new Button();
+            btn_mangestaff = new Button();
             btn_dashbroad = new Button();
-            pictureBox1 = new PictureBox();
+            btn_managemovie = new Button();
             btn_close_log = new Button();
             label1 = new Label();
             panel2 = new Panel();
             panel3 = new Panel();
-            dashbroadForm11 = new dashbroadForm1();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            btn_managecus = new Button();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
             // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(133, 19, 33);
-            panel1.Controls.Add(pictureBox5);
-            panel1.Controls.Add(btn_logout);
-            panel1.Controls.Add(pictureBox4);
-            panel1.Controls.Add(pictureBox3);
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(btn_addmovie);
-            panel1.Controls.Add(btn_addstaff);
-            panel1.Controls.Add(btn_dashbroad);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Dock = DockStyle.Left;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(195, 450);
-            panel1.TabIndex = 31;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = Properties.Resources.log_out1;
-            pictureBox5.Location = new Point(12, 407);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(40, 40);
-            pictureBox5.TabIndex = 8;
-            pictureBox5.TabStop = false;
-            // 
             // btn_logout
             // 
+            btn_logout.BackColor = SystemColors.Desktop;
             btn_logout.FlatAppearance.BorderSize = 0;
             btn_logout.FlatStyle = FlatStyle.Flat;
             btn_logout.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btn_logout.ForeColor = Color.White;
-            btn_logout.Location = new Point(12, 407);
+            btn_logout.Location = new Point(0, 502);
+            btn_logout.Margin = new Padding(3, 4, 3, 4);
             btn_logout.Name = "btn_logout";
-            btn_logout.Size = new Size(174, 40);
+            btn_logout.Size = new Size(209, 53);
             btn_logout.TabIndex = 7;
             btn_logout.Text = "Logout";
-            btn_logout.UseVisualStyleBackColor = true;
+            btn_logout.UseVisualStyleBackColor = false;
             btn_logout.Click += btn_logout_Click;
             // 
-            // pictureBox4
+            // btn_mangestaff
             // 
-            pictureBox4.Image = Properties.Resources.video_player1;
-            pictureBox4.Location = new Point(12, 268);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(40, 40);
-            pictureBox4.TabIndex = 6;
-            pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.group1;
-            pictureBox3.Location = new Point(12, 206);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(40, 40);
-            pictureBox3.TabIndex = 5;
-            pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.cogwheel1;
-            pictureBox2.Location = new Point(12, 150);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(40, 40);
-            pictureBox2.TabIndex = 4;
-            pictureBox2.TabStop = false;
-            // 
-            // btn_addmovie
-            // 
-            btn_addmovie.FlatAppearance.BorderSize = 0;
-            btn_addmovie.FlatStyle = FlatStyle.Flat;
-            btn_addmovie.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
-            btn_addmovie.ForeColor = Color.White;
-            btn_addmovie.Location = new Point(12, 268);
-            btn_addmovie.Name = "btn_addmovie";
-            btn_addmovie.Size = new Size(183, 40);
-            btn_addmovie.TabIndex = 3;
-            btn_addmovie.Text = "Them Phim";
-            btn_addmovie.UseVisualStyleBackColor = true;
-            btn_addmovie.Click += btn_addmovie_Click;
-            // 
-            // btn_addstaff
-            // 
-            btn_addstaff.FlatAppearance.BorderSize = 0;
-            btn_addstaff.FlatStyle = FlatStyle.Flat;
-            btn_addstaff.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
-            btn_addstaff.ForeColor = Color.White;
-            btn_addstaff.Location = new Point(12, 206);
-            btn_addstaff.Name = "btn_addstaff";
-            btn_addstaff.Size = new Size(183, 40);
-            btn_addstaff.TabIndex = 2;
-            btn_addstaff.Text = "Them Nhan Vien";
-            btn_addstaff.TextAlign = ContentAlignment.MiddleRight;
-            btn_addstaff.UseVisualStyleBackColor = true;
+            btn_mangestaff.BackColor = SystemColors.Desktop;
+            btn_mangestaff.FlatAppearance.BorderSize = 0;
+            btn_mangestaff.FlatStyle = FlatStyle.Flat;
+            btn_mangestaff.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
+            btn_mangestaff.ForeColor = Color.White;
+            btn_mangestaff.Location = new Point(355, 271);
+            btn_mangestaff.Margin = new Padding(3, 4, 3, 4);
+            btn_mangestaff.Name = "btn_mangestaff";
+            btn_mangestaff.Size = new Size(209, 53);
+            btn_mangestaff.TabIndex = 2;
+            btn_mangestaff.Text = "Them Nhan Vien";
+            btn_mangestaff.UseVisualStyleBackColor = false;
+            btn_mangestaff.Click += btn_addstaff_Click;
             // 
             // btn_dashbroad
             // 
+            btn_dashbroad.BackColor = SystemColors.Desktop;
             btn_dashbroad.FlatAppearance.BorderSize = 0;
             btn_dashbroad.FlatStyle = FlatStyle.Flat;
             btn_dashbroad.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
             btn_dashbroad.ForeColor = Color.White;
-            btn_dashbroad.Location = new Point(12, 150);
+            btn_dashbroad.Location = new Point(355, 177);
+            btn_dashbroad.Margin = new Padding(3, 4, 3, 4);
             btn_dashbroad.Name = "btn_dashbroad";
-            btn_dashbroad.Size = new Size(183, 40);
+            btn_dashbroad.Size = new Size(209, 53);
             btn_dashbroad.TabIndex = 1;
             btn_dashbroad.Text = "Bang Dieu Khien";
-            btn_dashbroad.TextAlign = ContentAlignment.MiddleRight;
-            btn_dashbroad.UseVisualStyleBackColor = true;
+            btn_dashbroad.UseVisualStyleBackColor = false;
             btn_dashbroad.Click += btn_dashbroad_Click;
             // 
-            // pictureBox1
+            // btn_managemovie
             // 
-            pictureBox1.Image = Properties.Resources.watching_a_movie1;
-            pictureBox1.Location = new Point(45, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(105, 109);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            btn_managemovie.BackColor = SystemColors.Desktop;
+            btn_managemovie.FlatAppearance.BorderSize = 0;
+            btn_managemovie.FlatStyle = FlatStyle.Flat;
+            btn_managemovie.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
+            btn_managemovie.ForeColor = Color.White;
+            btn_managemovie.Location = new Point(355, 84);
+            btn_managemovie.Margin = new Padding(3, 4, 3, 4);
+            btn_managemovie.Name = "btn_managemovie";
+            btn_managemovie.Size = new Size(209, 53);
+            btn_managemovie.TabIndex = 3;
+            btn_managemovie.Text = "Quản lý phim";
+            btn_managemovie.UseVisualStyleBackColor = false;
+            btn_managemovie.Click += btn_addmovie_Click;
             // 
             // btn_close_log
             // 
             btn_close_log.BackColor = Color.FromArgb(133, 19, 33);
+            btn_close_log.Dock = DockStyle.Right;
             btn_close_log.FlatStyle = FlatStyle.Flat;
             btn_close_log.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_close_log.ForeColor = Color.White;
-            btn_close_log.Location = new Point(764, 3);
+            btn_close_log.Location = new Point(888, 0);
+            btn_close_log.Margin = new Padding(3, 4, 3, 4);
             btn_close_log.Name = "btn_close_log";
-            btn_close_log.Size = new Size(29, 29);
+            btn_close_log.Size = new Size(33, 45);
             btn_close_log.TabIndex = 30;
             btn_close_log.Text = "X";
             btn_close_log.UseVisualStyleBackColor = false;
@@ -192,9 +126,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(133, 19, 33);
-            label1.Location = new Point(185, 7);
+            label1.Location = new Point(325, 9);
             label1.Name = "label1";
-            label1.Size = new Size(218, 20);
+            label1.Size = new Size(273, 25);
             label1.TabIndex = 31;
             label1.Text = "he thong quan ly ve xem phim";
             // 
@@ -204,45 +138,50 @@
             panel2.Controls.Add(label1);
             panel2.Controls.Add(btn_close_log);
             panel2.Dock = DockStyle.Top;
-            panel2.Location = new Point(195, 0);
+            panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(805, 34);
+            panel2.Size = new Size(921, 45);
             panel2.TabIndex = 32;
             // 
             // panel3
             // 
-            panel3.Controls.Add(dashbroadForm11);
+            panel3.Controls.Add(btn_managecus);
+            panel3.Controls.Add(btn_managemovie);
+            panel3.Controls.Add(btn_logout);
+            panel3.Controls.Add(btn_dashbroad);
+            panel3.Controls.Add(btn_mangestaff);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(195, 34);
+            panel3.Location = new Point(0, 45);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(805, 416);
+            panel3.Size = new Size(921, 555);
             panel3.TabIndex = 33;
             // 
-            // dashbroadForm11
+            // btn_managecus
             // 
-            dashbroadForm11.Location = new Point(0, 0);
-            dashbroadForm11.Name = "dashbroadForm11";
-            dashbroadForm11.Size = new Size(789, 450);
-            dashbroadForm11.TabIndex = 0;
+            btn_managecus.BackColor = SystemColors.Desktop;
+            btn_managecus.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold);
+            btn_managecus.ForeColor = Color.White;
+            btn_managecus.Location = new Point(355, 365);
+            btn_managecus.Name = "btn_managecus";
+            btn_managecus.Size = new Size(209, 53);
+            btn_managecus.TabIndex = 8;
+            btn_managecus.Text = "Quản lý khách hàng";
+            btn_managecus.UseVisualStyleBackColor = false;
             // 
             // AdminForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1000, 450);
+            ClientSize = new Size(921, 600);
             Controls.Add(panel3);
             Controls.Add(panel2);
-            Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "AdminForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AdminForm";
-            panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel3.ResumeLayout(false);
@@ -250,23 +189,17 @@
         }
 
         #endregion
-        private Panel panel1;
-        private PictureBox pictureBox1;
         private Button btn_dashbroad;
         private Button button3;
-        private Button btn_addmovie;
-        private Button btn_addstaff;
-        private PictureBox pictureBox4;
-        private PictureBox pictureBox3;
-        private PictureBox pictureBox2;
+        private Button btn_managemovie;
+        private Button btn_mangestaff;
         private Button btn_close_log;
         private Label label1;
         private Panel panel2;
         private Button btn_logout;
-        private PictureBox pictureBox5;
         private Panel panel3;
         private addMovieForm1 addMovieForm1;
         private addMovieForm1 addMovieForm11;
-        private dashbroadForm1 dashbroadForm11;
+        private Button btn_managecus;
     }
 }

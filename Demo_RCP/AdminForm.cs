@@ -41,7 +41,7 @@ namespace Demo_RCP
             addMovieForm admform = new addMovieForm();
             admform.Show();
             this.Hide();
-            
+
         }
 
         private void addMovieForm13_Load(object sender, EventArgs e)
@@ -55,6 +55,21 @@ namespace Demo_RCP
             admform.Visible = false;
             dashbroadForm1 dbform = new dashbroadForm1();
             dbform.Visible = true;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_addstaff_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

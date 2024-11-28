@@ -14,7 +14,7 @@ namespace Demo_RCP
 {
     public partial class RegForm : Form
     {
-        string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Admin\Documents\movie.mdf;Integrated Security=True;Connect Timeout=30";
+        string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\ACER LAPTOP\OneDrive\Tài liệu\movie.mdf"";Integrated Security=True;Connect Timeout=30";
         public RegForm()
         {
             InitializeComponent();
@@ -59,7 +59,7 @@ namespace Demo_RCP
                         adapter.Fill(table);
                         if (table.Rows.Count > 0)
                         {
-                            MessageBox.Show(reg_username.Text.Substring(0, 1).ToUpper() + reg_username.Text.Substring(1) + " da duoc thuc hien roi", " loi ", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                            MessageBox.Show(reg_username.Text.Substring(0, 1).ToUpper() + reg_username.Text.Substring(1) + " da duoc thuc hien roi", " loi ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                         else
                         {
@@ -100,6 +100,11 @@ namespace Demo_RCP
             {
                 Application.Exit();
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

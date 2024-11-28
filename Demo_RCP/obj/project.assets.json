@@ -1848,23 +1848,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\ACER LAPTOP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Demo_RCP1\\Demo_RCP\\Demo_RCP.csproj",
+      "projectUniqueName": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj",
       "projectName": "Demo_RCP",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\Demo_RCP1\\Demo_RCP\\Demo_RCP.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\Demo_RCP1\\Demo_RCP\\obj\\",
+      "projectPath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj",
+      "packagesPath": "C:\\Users\\ACER LAPTOP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP_01\\Demo_RCP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ACER LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
