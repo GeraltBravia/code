@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R6/4jc+Oa3g=",
+  "dgSpecHash": "o6cmx5hJjrU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER LAPTOP\\source\\repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj",
+  "projectFilePath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\Demo_RCP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER LAPTOP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ACER LAPTOP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER LAPTOP\\source\\repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj": {}
+    "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\Demo_RCP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER LAPTOP\\source\\repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj": {
+    "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\Demo_RCP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER LAPTOP\\source\\repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj",
+        "projectUniqueName": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\Demo_RCP.csproj",
         "projectName": "Demo_RCP",
-        "projectPath": "C:\\Users\\ACER LAPTOP\\source\\repos\\QLRCP_01\\Demo_RCP\\Demo_RCP.csproj",
+        "projectPath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\Demo_RCP.csproj",
         "packagesPath": "C:\\Users\\ACER LAPTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP_01\\Demo_RCP\\obj\\",
+        "outputPath": "C:\\Users\\ACER LAPTOP\\Source\\Repos\\QLRCP\\Demo_RCP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
